@@ -120,7 +120,7 @@ Transform:
   m_Children:
   - {fileID: 3767286207929538615}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7645749631640559968
 MonoBehaviour:
@@ -164,11 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0bd197b50b164e40b39ced0542d7629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  paddingLeft: 0
-  paddingRight: 0
-  paddingTop: 0
-  paddingBottom: 0
+  moveSpeed: 8
+  paddingLeft: 0.5
+  paddingRight: 0.5
+  paddingTop: 2
+  paddingBottom: 1
 --- !u!50 &6065074646116406489
 Rigidbody2D:
   serializedVersion: 4
@@ -243,7 +243,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5884254c3abfbc84689a810a4954d728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  isPlayer: 1
+  health: 150
+  score: 50
   hitEffect: {fileID: 1352029806830838250, guid: 6f6426eb229111a47a34871217914782, type: 3}
   applyCameraShake: 1
 --- !u!114 &7100006861383137135
